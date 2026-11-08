@@ -1,0 +1,8 @@
+# Generated / bundled artefacts: excluded from GitHub language stats
+ramayana-storybook.html linguist-generated=true
+docs/src/data.js linguist-generated=true
+docs/src/geo.js linguist-generated=true
+app/**/src/data.js linguist-generated=true
+app/**/src/geo.js linguist-generated=true
+app/**/src/tableau.extensions.*.js linguist-vendored=true
+*.twb linguist-generated=true
