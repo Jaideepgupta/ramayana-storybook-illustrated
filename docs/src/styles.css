@@ -197,3 +197,37 @@ button:disabled { opacity: .3; cursor: default; }
   background: rgba(246, 238, 221, .95); box-shadow: 0 2px 6px rgba(20, 8, 4, .18); }
 .mm-cap { display: none; }
 @media (max-width: 1150px) { .minimap { display: none; } }
+
+/* ---------------- Theme toggle ---------------- */
+.theme-btn { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--rule); color: var(--soft); font-size: 1.05rem; flex: none; margin-left: 4px; }
+.theme-btn:hover { color: var(--gold); border-color: var(--gold); }
+
+/* ---------------- Dark theme: night-reading, lamp-lit manuscript ---------------- */
+[data-theme="dark"] {
+  --paper: #17110d;
+  --paper-2: #211812;
+  --ink: #efe3cc;
+  --soft: #b4a085;
+  --maroon: #e9a57d;
+  --gold: #d9a94e;
+  --gold-soft: #f0d391;
+  --rule: #3a2c21;
+  color-scheme: dark;
+}
+[data-theme="dark"] .right { border-left-color: var(--rule); }
+[data-theme="dark"] .episodes li.key button, [data-theme="dark"] .linkish { color: var(--maroon); }
+[data-theme="dark"] .stops button:hover, [data-theme="dark"] .newcomers li:hover { background: var(--paper-2); }
+[data-theme="dark"] .stops button.on { background: var(--maroon); color: #17110d; }
+[data-theme="dark"] .begin:hover, [data-theme="dark"] .trace:hover, [data-theme="dark"] .arrow:not(:disabled):hover { color: #17110d; }
+[data-theme="dark"] .sea { fill: #1d2a2c; }
+[data-theme="dark"] .land { fill: #3a2c20; stroke: #6b5338; }
+[data-theme="dark"] .sea-label { fill: #6f8584; }
+[data-theme="dark"] .stop circle { fill: var(--paper); }
+[data-theme="dark"] .stop text { stroke: var(--paper-2); }
+[data-theme="dark"] .leg { stroke: var(--maroon); }
+[data-theme="dark"] .art-map { background: var(--paper-2); }
+[data-theme="dark"] .minimap { background: rgba(33, 24, 18, .95); }
+[data-theme="dark"] .mm-land { fill: #4a3828; stroke: #6b5338; }
+[data-theme="dark"] .mm-place circle { stroke: var(--paper); }
+[data-theme="dark"] .subdots i { background: var(--rule); }
+html, body, .right, .nav { transition: background-color .25s, color .25s; }

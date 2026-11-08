@@ -427,6 +427,18 @@
         h('button', { cls: 'linkish', onclick: function () { go(1); } }, 'The Path of Rama →')));
   }
 
+  // ------------------------------------------------------------- light / dark theme
+  var THEME_KEY = 'ramayana-storybook:theme';
+  function theme() { return document.documentElement.getAttribute('data-theme') || 'light'; }
+  function setTheme(t) { document.documentElement.setAttribute('data-theme', t); try { localStorage.setItem(THEME_KEY, t); } catch (e) { /* ignore */ } }
+  function toggleTheme() { setTheme(theme() === 'dark' ? 'light' : 'dark'); render(); }
+  (function initTheme() {
+    var t = null;
+    try { t = localStorage.getItem(THEME_KEY); } catch (e) { /* ignore */ }
+    if (!t) { t = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+
   // ------------------------------------------------------------- bottom navigation
   function navBar() {
     var p = pages[at];
@@ -450,7 +462,8 @@
           'aria-current': sg[1] === cur ? 'step' : null, onclick: function () { go(sg[2]); } }, sg[0]));
       })),
       sub,
-      h('button', { cls: 'arrow', 'aria-label': 'Next page', disabled: at === pages.length - 1 ? 'disabled' : null, onclick: function () { go(at + 1); } }, '→'));
+      h('button', { cls: 'arrow', 'aria-label': 'Next page', disabled: at === pages.length - 1 ? 'disabled' : null, onclick: function () { go(at + 1); } }, '→'),
+      h('button', { cls: 'theme-btn', 'aria-label': theme() === 'dark' ? 'Switch to light mode' : 'Switch to dark mode', title: theme() === 'dark' ? 'Light mode' : 'Dark mode', onclick: toggleTheme }, theme() === 'dark' ? '\u2600' : '\u263E'));
   }
 
   // ------------------------------------------------------------- journey trace animation

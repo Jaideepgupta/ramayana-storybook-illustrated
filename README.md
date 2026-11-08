@@ -12,7 +12,7 @@ No Tableau account needed. The web edition (`docs/`) runs the same storybook fro
 - **Who's who (पात्र परिचय):** the main characters of the four worlds (Ayodhya & Mithila, Kishkindha, Lanka, Sages & Forest)
 - **7 Kanda chapters:** each has its real Kanda name in Devanagari, an introduction, all its episodes, and the characters who enter the story there
 - **24 key moments told in detail:** for example the war with Khara and Dushana, Kumbhakarna, Lakshmana and Meghnad, and Rama and Ravana
-- **Closing page, resume-reading,** and a small locator map on every page
+- **Closing page, resume-reading, light/dark mode,** and a small locator map on every page
 
 ![Building the bridge](docs/screenshot-bridge.jpg)
 
