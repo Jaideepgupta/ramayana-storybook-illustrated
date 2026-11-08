@@ -2,6 +2,9 @@
 
 An illustrated, storytelling **Tableau data app** that tells the Valmiki Ramayana through its seven Kandas (बालकाण्ड to उत्तरकाण्ड). Each page fits one screen: an illustration on the left and the story on the right. The data is read live from a Tableau published data source.
 
+### ▶ [Read the storybook in your browser](https://jaideepgupta.github.io/ramayana-storybook-illustrated/)
+No Tableau account needed. The web edition (`docs/`) runs the same storybook from a bundled copy of the data. The Tableau Cloud version reads the same data live.
+
 ![Bala Kanda page](docs/screenshot-bala-kanda.png)
 
 ## What's inside the story
@@ -23,6 +26,7 @@ data/raw (starter CSVs)
    └─ pipeline/build_map.py       coastline silhouette from Natural Earth (no political borders)
    └─ pipeline/prepare_images.py  resize + register illustrations
 app/   Tableau data app (viz extension): .twb + extension package (HTML/CSS/JS, no external origins)
+docs/  standalone web edition (GitHub Pages): same app, reads the bundled snapshot
 ```
 - **Live data:** the app queries the published source through the Tableau Extensions API (`queryAsync`), splits rows by `Record Type`, and joins them in JavaScript. If the live query fails, it falls back to the bundled snapshot.
 - **No-scroll layout:** a zoom-to-fit routine keeps every page inside short Tableau frames. This is tested at 1100×520 up to 1440×900.
