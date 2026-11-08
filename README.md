@@ -5,6 +5,8 @@ An illustrated, storytelling **Tableau data app** that tells the Valmiki Ramayan
 ### ▶ [Read the storybook in your browser](https://jaideepgupta.github.io/ramayana-storybook-illustrated/)
 No Tableau account needed. The web edition (`docs/`) runs the same storybook from a bundled copy of the data. The Tableau Cloud version reads the same data live.
 
+Offline: download [`ramayana-storybook.html`](ramayana-storybook.html) (a single 3 MB file with images and data inside) and double-click it.
+
 ![Bala Kanda page](docs/screenshot-bala-kanda.png)
 
 ## What's inside the story

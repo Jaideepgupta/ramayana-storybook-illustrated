@@ -24,7 +24,7 @@ const DEVA = ['बालकाण्ड', 'अयोध्याकाण्ड'
         kanda++;
       }
       if (w === 1440) await page.screenshot({ path: `${shots}/p${String(i).padStart(2, '0')}_${cls.replace('book page-', '')}.png` });
-      const next = await page.$('.nav .arrow:last-child:not([disabled])');
+      const next = await page.$('button[aria-label="Next page"]:not([disabled])');
       if (!next) break;
       await page.keyboard.press('ArrowRight'); i++;
       if (i > 60) { errors.push('runaway'); break; }
