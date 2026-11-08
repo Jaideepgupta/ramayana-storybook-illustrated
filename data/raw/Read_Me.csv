@@ -1,0 +1,8 @@
+﻿Topic,Guidance
+Textual basis,"Valmiki Ramayana; event summaries are concise paraphrases, not quotations."
+Chronology,Sequence is narrative order only. No absolute historical dates are assigned.
+Geography,"Modern place associations are traditional or commonly proposed identifications, not proof of historical geography."
+Textual variation,Uttara Kanda and some episode details have complex textual histories and reception; mark interpretive caveats in the UI.
+Data status,Curated starter dataset for a portfolio prototype. Verify against a chosen critical edition/translation before scholarly publication.
+Relationship direction,From_Character_ID to To_Character_ID; interpret Relationship_Type and Context for directionality.
+Event participation,"Event_Character_Bridge provides selected main participants, not every character present in each episode."

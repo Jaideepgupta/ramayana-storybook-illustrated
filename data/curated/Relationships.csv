@@ -1,0 +1,42 @@
+Relationship ID,From Character ID,To Character ID,Relationship Type,Relationship Group,Context,Source Note
+R001,C001,C002,Spouse,Marriage,Rama and Sita,Starter dataset - verify against chosen Valmiki Ramayana edition
+R002,C001,C003,Brother,Family,Rama and Lakshmana,Starter dataset - verify against chosen Valmiki Ramayana edition
+R003,C001,C004,Brother,Family,Rama and Bharata,Starter dataset - verify against chosen Valmiki Ramayana edition
+R004,C001,C005,Brother,Family,Rama and Shatrughna,Starter dataset - verify against chosen Valmiki Ramayana edition
+R005,C001,C006,Son,Family,Rama is Dasharatha's son,Starter dataset - verify against chosen Valmiki Ramayana edition
+R006,C001,C007,Son,Family,Rama is Kaushalya's son,Starter dataset - verify against chosen Valmiki Ramayana edition
+R007,C002,C010,Daughter,Family,Sita is Janaka's daughter,Starter dataset - verify against chosen Valmiki Ramayana edition
+R008,C003,C009,Son,Family,Lakshmana is Sumitra's son,Starter dataset - verify against chosen Valmiki Ramayana edition
+R009,C004,C008,Son,Family,Bharata is Kaikeyi's son,Starter dataset - verify against chosen Valmiki Ramayana edition
+R010,C005,C009,Son,Family,Shatrughna is Sumitra's son,Starter dataset - verify against chosen Valmiki Ramayana edition
+R011,C013,C001,Devotee and ally,Service & Devotion,Hanuman serves Rama,Starter dataset - verify against chosen Valmiki Ramayana edition
+R012,C014,C001,Ally,Alliance,Sugriva allies with Rama,Starter dataset - verify against chosen Valmiki Ramayana edition
+R013,C015,C014,Brother and rival,Conflict,Vali and Sugriva are brothers,Starter dataset - verify against chosen Valmiki Ramayana edition
+R014,C016,C013,Mentor,Guidance,Jambavan encourages Hanuman,Starter dataset - verify against chosen Valmiki Ramayana edition
+R015,C017,C015,Son,Family,Angada is Vali's son,Starter dataset - verify against chosen Valmiki Ramayana edition
+R016,C020,C002,Captor,Conflict,Ravana abducts Sita,Starter dataset - verify against chosen Valmiki Ramayana edition
+R017,C020,C022,Brother,Family,Ravana and Vibhishana are brothers,Starter dataset - verify against chosen Valmiki Ramayana edition
+R018,C020,C023,Brother,Family,Ravana and Kumbhakarna are brothers,Starter dataset - verify against chosen Valmiki Ramayana edition
+R019,C020,C024,Father,Family,Ravana is Indrajit's father,Starter dataset - verify against chosen Valmiki Ramayana edition
+R020,C020,C021,Spouse,Marriage,Ravana and Mandodari,Starter dataset - verify against chosen Valmiki Ramayana edition
+R021,C020,C025,Sibling,Family,Ravana and Shurpanakha,Starter dataset - verify against chosen Valmiki Ramayana edition
+R022,C020,C026,Associate,Alliance,Maricha assists Ravana's plan,Starter dataset - verify against chosen Valmiki Ramayana edition
+R023,C027,C002,Rescuer,Alliance,Jatayu attempts to rescue Sita,Starter dataset - verify against chosen Valmiki Ramayana edition
+R024,C028,C027,Brother,Family,Sampati and Jatayu,Starter dataset - verify against chosen Valmiki Ramayana edition
+R025,C031,C015,Spouse,Marriage,Tara and Vali,Starter dataset - verify against chosen Valmiki Ramayana edition
+R026,C022,C001,Ally,Alliance,Vibhishana joins Rama,Starter dataset - verify against chosen Valmiki Ramayana edition
+R027,C037,C001,Friend,Alliance,Guha receives Rama,Starter dataset - verify against chosen Valmiki Ramayana edition
+R028,C038,C001,Guide,Guidance,Bharadvaja advises Rama,Starter dataset - verify against chosen Valmiki Ramayana edition
+R029,C011,C001,Teacher and guide,Guidance,Vishvamitra guides Rama,Starter dataset - verify against chosen Valmiki Ramayana edition
+R030,C012,C006,Royal sage,Guidance,Vashishtha advises the royal house,Starter dataset - verify against chosen Valmiki Ramayana edition
+R031,C039,C001,Guide,Guidance,Agastya advises Rama,Starter dataset - verify against chosen Valmiki Ramayana edition
+R032,C020,C001,Adversary,Conflict,Ravana and Rama are the central adversaries,Editorial addition (curation 2026-11) - requires review
+R033,C003,C024,Adversary,Conflict,Lakshmana defeats Indrajit,Editorial addition (curation 2026-11) - requires review
+R034,C001,C015,Adversary,Conflict,Rama kills Vali in support of Sugriva,Editorial addition (curation 2026-11) - requires review
+R035,C017,C014,Ally,Alliance,Angada serves Sugriva in the search and war,Editorial addition (curation 2026-11) - requires review
+R036,C029,C001,Devotee,Service & Devotion,Shabari awaits and honours Rama,Editorial addition (curation 2026-11) - requires review
+R037,C036,C002,Protector,Alliance,Trijata comforts Sita in the Ashoka grove,Editorial addition (curation 2026-11) - requires review
+R038,C007,C006,Spouse,Marriage,Kaushalya and Dasharatha,Editorial addition (curation 2026-11) - requires review
+R039,C008,C006,Spouse,Marriage,Kaikeyi and Dasharatha,Editorial addition (curation 2026-11) - requires review
+R040,C009,C006,Spouse,Marriage,Sumitra and Dasharatha,Editorial addition (curation 2026-11) - requires review
+R041,C011,C041,Adversary,Conflict,Vishvamitra directs Rama against Tataka,Editorial addition (curation 2026-11) - requires review

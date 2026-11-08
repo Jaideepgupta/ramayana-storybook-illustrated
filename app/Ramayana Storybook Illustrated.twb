@@ -1,0 +1,693 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<workbook source-build='2026.3.3 (20263.26.1103.1048)' version='18.1' xml:base='https://localhost' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <Extensions />
+    <VizExtensions />
+    <_.fcp.Packages.true...Packages />
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <repository-location id='template' path='/workbooks' revision='1.0' />
+  <preferences />
+  <datasources>
+    <datasource caption='Ramayana Story Data' inline='true' name='sqlproxy.7z7jtkbd4bg3l96od4m7qt' version='18.1'>
+      <repository-location id='Ramayana_Story_Data' path='/t/devjaideep/datasources' revision='1.0' site='devjaideep' />
+      <connection channel='https' class='sqlproxy' dbname='Ramayana_Story_Data' directory='dataserver' port='443' server='10ax.online.tableau.com' server-ds-friendly-name='Ramayana Story Data' username=''>
+        <relation type='collection'>
+          <relation connection='sqlproxy.7z7jtkbd4bg3l96od4m7qt' name='sqlproxy' table='[sqlproxy]' type='table' />
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Record Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Record Type]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Record Type</remote-alias>
+            <ordinal>0</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Record ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Record ID]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Record ID</remote-alias>
+            <ordinal>1</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kanda ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Kanda ID]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Kanda ID</remote-alias>
+            <ordinal>2</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kanda</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Kanda]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Kanda</remote-alias>
+            <ordinal>3</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kanda Devanagari</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Kanda Devanagari]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Kanda Devanagari</remote-alias>
+            <ordinal>4</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>English Gloss</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[English Gloss]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>English Gloss</remote-alias>
+            <ordinal>5</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Story Intro</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Story Intro]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Story Intro</remote-alias>
+            <ordinal>6</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Scope Note</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Scope Note]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Scope Note</remote-alias>
+            <ordinal>7</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Event ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Event ID]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Event ID</remote-alias>
+            <ordinal>8</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Event</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Event]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Event</remote-alias>
+            <ordinal>9</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location ID]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Location ID</remote-alias>
+            <ordinal>10</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Summary</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Summary]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Summary</remote-alias>
+            <ordinal>11</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Key Moment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Key Moment]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Key Moment</remote-alias>
+            <ordinal>12</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Narrative</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Narrative]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Narrative</remote-alias>
+            <ordinal>13</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Confidence Label</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Confidence Label]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Confidence Label</remote-alias>
+            <ordinal>14</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Chronology Note</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Chronology Note]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Chronology Note</remote-alias>
+            <ordinal>15</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Character ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Character ID]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Character ID</remote-alias>
+            <ordinal>16</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Character</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Character]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Character</remote-alias>
+            <ordinal>17</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>18</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Modern Association</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Modern Association]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Modern Association</remote-alias>
+            <ordinal>19</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Participation ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Participation ID]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Participation ID</remote-alias>
+            <ordinal>20</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Participation Role</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Participation Role]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Participation Role</remote-alias>
+            <ordinal>21</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Journey Stop ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Journey Stop ID]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Journey Stop ID</remote-alias>
+            <ordinal>22</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Story Milestone</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Story Milestone]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Story Milestone</remote-alias>
+            <ordinal>23</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kanda Order</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Kanda Order]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Kanda Order</remote-alias>
+            <ordinal>24</ordinal>
+            <layered>true</layered>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>1</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Narrative Order</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Narrative Order]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Narrative Order</remote-alias>
+            <ordinal>25</ordinal>
+            <layered>true</layered>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>1</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Journey Order</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Journey Order]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Journey Order</remote-alias>
+            <ordinal>26</ordinal>
+            <layered>true</layered>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>1</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Map Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Map Latitude]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Map Latitude</remote-alias>
+            <ordinal>27</ordinal>
+            <layered>true</layered>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>1</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Map Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Map Longitude]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Map Longitude</remote-alias>
+            <ordinal>28</ordinal>
+            <layered>true</layered>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>1</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Description]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Description</remote-alias>
+            <ordinal>29</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Faction</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Faction]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Faction</remote-alias>
+            <ordinal>30</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Role</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Role]</local-name>
+            <parent-name>[sqlproxy]</parent-name>
+            <remote-alias>Role</remote-alias>
+            <ordinal>31</ordinal>
+            <layered>true</layered>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='field-type'>1</attribute>
+              <attribute datatype='integer' name='role'>0</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Ramayana Storybook Illustrated'>
+      <repository-location id='Sheet1' path='/workbooks/template' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Ramayana Story Data' name='sqlproxy.7z7jtkbd4bg3l96od4m7qt' />
+          </datasources>
+          <datasource-dependencies datasource='sqlproxy.7z7jtkbd4bg3l96od4m7qt'>
+            <column aggregation='Count' datatype='string' name='[Record Type]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Record ID]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Kanda ID]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Kanda]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Kanda Devanagari]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[English Gloss]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Story Intro]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Scope Note]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Event ID]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Event]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Location ID]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Summary]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Key Moment]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Narrative]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Confidence Label]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Chronology Note]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Character ID]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Character]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Location]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Modern Association]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Participation ID]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Participation Role]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Journey Stop ID]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Story Milestone]' role='dimension' type='nominal' />
+            <column aggregation='Sum' datatype='integer' name='[Kanda Order]' role='measure' type='quantitative' />
+            <column aggregation='Sum' datatype='integer' name='[Narrative Order]' role='measure' type='quantitative' />
+            <column aggregation='Sum' datatype='integer' name='[Journey Order]' role='measure' type='quantitative' />
+            <column aggregation='Sum' datatype='real' name='[Map Latitude]' role='measure' type='quantitative' />
+            <column aggregation='Sum' datatype='real' name='[Map Longitude]' role='measure' type='quantitative' />
+            <column aggregation='Count' datatype='string' name='[Description]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Faction]' role='dimension' type='nominal' />
+            <column aggregation='Count' datatype='string' name='[Role]' role='dimension' type='nominal' />
+            <column-instance column='[Record Type]' derivation='None' name='[none:Record Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Record ID]' derivation='None' name='[none:Record ID:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Kanda ID]' derivation='None' name='[none:Kanda ID:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Kanda]' derivation='None' name='[none:Kanda:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Kanda Devanagari]' derivation='None' name='[none:Kanda Devanagari:nk]' pivot='key' type='nominal' />
+            <column-instance column='[English Gloss]' derivation='None' name='[none:English Gloss:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Story Intro]' derivation='None' name='[none:Story Intro:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Scope Note]' derivation='None' name='[none:Scope Note:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Event ID]' derivation='None' name='[none:Event ID:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Event]' derivation='None' name='[none:Event:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Location ID]' derivation='None' name='[none:Location ID:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Summary]' derivation='None' name='[none:Summary:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Key Moment]' derivation='None' name='[none:Key Moment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Narrative]' derivation='None' name='[none:Narrative:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Confidence Label]' derivation='None' name='[none:Confidence Label:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Chronology Note]' derivation='None' name='[none:Chronology Note:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Character ID]' derivation='None' name='[none:Character ID:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Character]' derivation='None' name='[none:Character:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Modern Association]' derivation='None' name='[none:Modern Association:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Participation ID]' derivation='None' name='[none:Participation ID:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Participation Role]' derivation='None' name='[none:Participation Role:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Journey Stop ID]' derivation='None' name='[none:Journey Stop ID:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Story Milestone]' derivation='None' name='[none:Story Milestone:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Kanda Order]' derivation='Sum' name='[sum:Kanda Order:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Narrative Order]' derivation='Sum' name='[sum:Narrative Order:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Journey Order]' derivation='Sum' name='[sum:Journey Order:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Map Latitude]' derivation='Sum' name='[sum:Map Latitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Map Longitude]' derivation='Sum' name='[sum:Map Longitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Description]' derivation='None' name='[none:Description:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Faction]' derivation='None' name='[none:Faction:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Role]' derivation='None' name='[none:Role:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='VizExtension' />
+            <add-in add-in-id='com.tableau.mcp.ramayana-storybook-illustrated' extension-url='tableaulocalext:///com.tableau.mcp.ramayana-storybook-illustrated/content/index.html' extension-version='1.0.0' instance-id='A1B2C3D4E5F60718293A4B5C6D7E8F90'>
+              <instance-settings />
+              <type-settings>
+                <worksheet />
+              </type-settings>
+            </add-in>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{D846E350-EFE9-46AE-88D6-906A4DB75930}' />
+    </worksheet>
+  </worksheets>
+  <windows>
+    <window class='worksheet' maximized='true' name='Ramayana Storybook Illustrated'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5CCC5EFE-BD3C-4B06-B427-3A22F445F324}' />
+    </window>
+  </windows>
+  <referenced-extensions>
+    <referenced-extension>
+      <manifest manifest-version='0.1'>
+        <worksheet-extension extension-version='1.0.0' id='com.tableau.mcp.ramayana-storybook-illustrated'>
+          <default-locale>en_US</default-locale>
+          <name>Ramayana Storybook Illustrated</name>
+          <description>Embedded workbook extension.</description>
+          <author email='noreply@tableau.com' name='Claude' organization='Tableau' website='https://www.tableau.com' />
+          <min-api-version>1.11</min-api-version>
+          <source-location>
+            <url>tableaulocalext:///com.tableau.mcp.ramayana-storybook-illustrated/content/index.html</url>
+          </source-location>
+          <icon>iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=</icon>
+          <permissions>
+            <permission>full data</permission>
+          </permissions>
+          <encoding id='field'>
+            <display-name>Data</display-name>
+            <role-spec>
+              <role-type>discrete-dimension</role-type>
+              <role-type>discrete-measure</role-type>
+              <role-type>continuous-dimension</role-type>
+              <role-type>continuous-measure</role-type>
+            </role-spec>
+            <fields max-count='50' />
+            <encoding-icon token='level' />
+          </encoding>
+        </worksheet-extension>
+      </manifest>
+      <referenced-views>
+        <referenced-view instances='1' viewId='Ramayana Storybook Illustrated' />
+      </referenced-views>
+    </referenced-extension>
+  </referenced-extensions>
+</workbook>

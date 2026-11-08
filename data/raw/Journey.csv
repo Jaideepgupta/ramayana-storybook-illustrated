@@ -1,0 +1,13 @@
+﻿Journey_Sequence,Location,Story_Milestone,Kanda_ID,Location_ID
+1,Ayodhya,Departure and royal home,K02,L001
+2,Shringaverapura,Guha receives Rama,K02,L005
+3,Prayaga,Bharadvaja's hermitage,K02,L019
+4,Chitrakuta,Early forest residence,K02,L006
+5,Dandaka Forest,Wider forest exile,K03,L007
+6,Panchavati,Sita's abduction episode,K03,L008
+7,Kishkindha,Alliance with Sugriva,K04,L010
+8,Southern Coast,Search party reaches the ocean,K04,L013
+9,Mahendra Mountain,Hanuman's leap,K05,L014
+10,Lanka,Sita's captivity and Lanka war,K05,L015
+11,Setubandha,Army crossing toward Lanka,K06,L017
+12,Ayodhya,Return and coronation,K06,L001

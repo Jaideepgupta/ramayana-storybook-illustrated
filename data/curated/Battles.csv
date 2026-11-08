@@ -1,0 +1,9 @@
+Battle ID,Battle,Battle Order,Kanda ID,Event ID,Location ID,Side A,Side B,Outcome,Notes,Source Note
+B001,Tataka encounter,1,K01,,L003,Rama,Tataka,Rama prevails,Episode is part of the Bala Kanda training journey,Starter dataset - verify against chosen Valmiki Ramayana edition
+B002,Janasthana battle,2,K03,E020,L009,Rama,Khara and Dushana,Rama prevails,Rama defeats the rakshasa forces,Starter dataset - verify against chosen Valmiki Ramayana edition
+B003,Vali-Sugriva conflict,3,K04,E027,L010,Rama and Sugriva,Vali,Vali falls,Ethical debate around the circumstances is a major interpretive topic,Starter dataset - verify against chosen Valmiki Ramayana edition
+B004,Hanuman in Lanka,4,K05,E033,L015,Hanuman,Lanka's guards and court,Hanuman escapes,"Reconnaissance and confrontation, not the main war",Starter dataset - verify against chosen Valmiki Ramayana edition
+B005,Lanka campaign begins,5,K06,E037,L015,Rama's forces,Ravana's forces,Campaign begins,Multiple engagements across the Yuddha Kanda,Starter dataset - verify against chosen Valmiki Ramayana edition
+B006,Kumbhakarna battle,6,K06,E038,L015,Rama's forces,Kumbhakarna,Kumbhakarna falls,Major Lanka-war episode,Starter dataset - verify against chosen Valmiki Ramayana edition
+B007,Indrajit battle,7,K06,E039,L015,Lakshmana,Indrajit,Indrajit falls,Indrajit is defeated by Lakshmana,Starter dataset - verify against chosen Valmiki Ramayana edition
+B008,Rama-Ravana duel,8,K06,E040,L015,Rama,Ravana,Ravana falls,Central climax of the Lanka war,Starter dataset - verify against chosen Valmiki Ramayana edition

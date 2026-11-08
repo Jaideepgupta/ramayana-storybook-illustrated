@@ -1,0 +1,32 @@
+﻿From_Character_ID,To_Character_ID,Relationship_Type,Context
+C001,C002,Spouse,Rama and Sita
+C001,C003,Brother,Rama and Lakshmana
+C001,C004,Brother,Rama and Bharata
+C001,C005,Brother,Rama and Shatrughna
+C001,C006,Son,Rama is Dasharatha's son
+C001,C007,Son,Rama is Kaushalya's son
+C002,C010,Daughter,Sita is Janaka's daughter
+C003,C009,Son,Lakshmana is Sumitra's son
+C004,C008,Son,Bharata is Kaikeyi's son
+C005,C009,Son,Shatrughna is Sumitra's son
+C013,C001,Devotee and ally,Hanuman serves Rama
+C014,C001,Ally,Sugriva allies with Rama
+C015,C014,Brother and rival,Vali and Sugriva are brothers
+C016,C013,Mentor,Jambavan encourages Hanuman
+C017,C015,Son,Angada is Vali's son
+C020,C002,Captor,Ravana abducts Sita
+C020,C022,Brother,Ravana and Vibhishana are brothers
+C020,C023,Brother,Ravana and Kumbhakarna are brothers
+C020,C024,Father,Ravana is Indrajit's father
+C020,C021,Spouse,Ravana and Mandodari
+C020,C025,Sibling,Ravana and Shurpanakha
+C020,C026,Associate,Maricha assists Ravana's plan
+C027,C002,Rescuer,Jatayu attempts to rescue Sita
+C028,C027,Brother,Sampati and Jatayu
+C031,C015,Spouse,Tara and Vali
+C022,C001,Ally,Vibhishana joins Rama
+C037,C001,Friend,Guha receives Rama
+C038,C001,Guide,Bharadvaja advises Rama
+C011,C001,Teacher and guide,Vishvamitra guides Rama
+C012,C006,Royal sage,Vashishtha advises the royal house
+C039,C001,Guide,Agastya advises Rama

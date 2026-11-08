@@ -1,0 +1,41 @@
+﻿Character_ID,Character,Description,People_or_Lineage,Role,Associated_Location,First_Kanda_ID,Last_Kanda_ID
+C001,Rama,Prince of Ayodhya; central protagonist,Ikshvaku,Hero,Ayodhya,K01,K07
+C002,Sita,Daughter of Janaka; wife of Rama,Videha,Hero,Mithila,K01,K07
+C003,Lakshmana,Rama's younger brother; accompanies exile,Ikshvaku,Ally,Ayodhya,K01,K07
+C004,Bharata,Rama's younger brother; rules as regent,Ikshvaku,Ally,Ayodhya,K01,K07
+C005,Shatrughna,Rama's younger brother,Ikshvaku,Ally,Ayodhya,K01,K07
+C006,Dasharatha,King of Ayodhya; father of Rama,Ikshvaku,Family,Ayodhya,K01,K02
+C007,Kaushalya,Rama's mother,Ikshvaku,Family,Ayodhya,K01,K07
+C008,Kaikeyi,Bharata's mother; asks for two boons,Ikshvaku,Family,Ayodhya,K01,K02
+C009,Sumitra,Mother of Lakshmana and Shatrughna,Ikshvaku,Family,Ayodhya,K01,K07
+C010,Janaka,King of Mithila; Sita's father,Videha,Family,Mithila,K01,K07
+C011,Vishvamitra,Sage who takes Rama and Lakshmana to protect his sacrifice,Sage,Guide,Siddhashrama,K01,K01
+C012,Vashishtha,Royal sage of Ayodhya,Sage,Guide,Ayodhya,K01,K07
+C013,Hanuman,Vanara devotee and emissary of Rama,Vanara,Ally,Kishkindha,K04,K07
+C014,Sugriva,Vanara king; ally of Rama,Vanara,Ally,Kishkindha,K04,K07
+C015,Vali,Former Vanara king; brother of Sugriva,Vanara,Rival,Kishkindha,K04,K04
+C016,Jambavan,Wise bear-chief who encourages Hanuman,Riksha,Ally,Kishkindha,K04,K06
+C017,Angada,Son of Vali; envoy and warrior,Vanara,Ally,Kishkindha,K04,K06
+C018,Nala,Vanara associated with construction of the bridge,Vanara,Ally,Setubandha,K06,K06
+C019,Nila,Vanara commander,Vanara,Ally,Lanka campaign,K06,K06
+C020,Ravana,King of Lanka; abducts Sita,Rakshasa,Antagonist,Lanka,K03,K06
+C021,Mandodari,Queen of Lanka; wife of Ravana,Rakshasa,Family,Lanka,K06,K07
+C022,Vibhishana,Ravana's brother; joins Rama,Rakshasa,Ally,Lanka,K06,K07
+C023,Kumbhakarna,Ravana's brother and warrior,Rakshasa,Antagonist,Lanka,K06,K06
+C024,Indrajit (Meghanada),Ravana's son; formidable warrior,Rakshasa,Antagonist,Lanka,K06,K06
+C025,Shurpanakha,Ravana's sister; encounter in the forest,Rakshasa,Catalyst,Dandaka forest,K03,K03
+C026,Maricha,Rakshasa who takes the form of a golden deer,Rakshasa,Antagonist,Dandaka forest,K03,K03
+C027,Jatayu,Vulture who attempts to stop Sita's abduction,Bird,Ally,Dandaka forest,K03,K03
+C028,Sampati,Jatayu's brother; reveals information about Lanka,Bird,Ally,Southern coast,K04,K04
+C029,Shabari,Ascetic who welcomes Rama,Sage,Ally,Matanga hermitage,K03,K03
+C030,Ahalya,Restored through Rama's arrival,Human,Supporting,Gautama hermitage,K01,K01
+C031,Tara,Queen of Kishkindha; wife of Vali,Vanara,Supporting,Kishkindha,K04,K04
+C032,Sushena,Vanara elder/healer in the Lanka campaign,Vanara,Ally,Lanka campaign,K06,K06
+C033,Akampana,Rakshasa who reports events to Ravana,Rakshasa,Antagonist,Lanka,K03,K03
+C034,Khara,Rakshasa leader in Janasthana,Rakshasa,Antagonist,Janasthana,K03,K03
+C035,Dushana,Rakshasa commander in Janasthana,Rakshasa,Antagonist,Janasthana,K03,K03
+C036,Trijata,Rakshasi who appears sympathetically toward Sita,Rakshasa,Supporting,Ashoka grove,K05,K05
+C037,Guha,Nishada chief and friend of Rama,Nishada,Ally,Shringaverapura,K02,K02
+C038,Bharadvaja,Sage encountered during the exile journey,Sage,Guide,Prayaga,K02,K02
+C039,Agastya,Sage who advises Rama in the forest,Sage,Guide,Dandaka forest,K03,K03
+C040,Rishyasringa,Sage associated with Dasharatha's sacrifice,Sage,Supporting,Anga,K01,K01

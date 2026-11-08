@@ -1,0 +1,42 @@
+Character ID,Character,Aliases,Description,People or Lineage,Faction,Narrative Side,Role,Associated Location,First Kanda ID,Last Kanda ID,Source Note
+C001,Rama,Raghava; Ramachandra; Dasharathi,Prince of Ayodhya; central protagonist,Ikshvaku,Ayodhya & Mithila,Rama's side,Hero,Ayodhya,K01,K07,Starter dataset - verify against chosen Valmiki Ramayana edition
+C002,Sita,Janaki; Vaidehi; Maithili,Daughter of Janaka; wife of Rama,Videha,Ayodhya & Mithila,Rama's side,Hero,Mithila,K01,K07,Starter dataset - verify against chosen Valmiki Ramayana edition
+C003,Lakshmana,Saumitri,Rama's younger brother; accompanies exile,Ikshvaku,Ayodhya & Mithila,Rama's side,Ally,Ayodhya,K01,K07,Starter dataset - verify against chosen Valmiki Ramayana edition
+C004,Bharata,,Rama's younger brother; rules as regent,Ikshvaku,Ayodhya & Mithila,Rama's side,Ally,Ayodhya,K01,K07,Starter dataset - verify against chosen Valmiki Ramayana edition
+C005,Shatrughna,,Rama's younger brother,Ikshvaku,Ayodhya & Mithila,Rama's side,Ally,Ayodhya,K01,K07,Starter dataset - verify against chosen Valmiki Ramayana edition
+C006,Dasharatha,,King of Ayodhya; father of Rama,Ikshvaku,Ayodhya & Mithila,Rama's side,Family,Ayodhya,K01,K02,Starter dataset - verify against chosen Valmiki Ramayana edition
+C007,Kaushalya,,Rama's mother,Ikshvaku,Ayodhya & Mithila,Rama's side,Family,Ayodhya,K01,K07,Starter dataset - verify against chosen Valmiki Ramayana edition
+C008,Kaikeyi,,Bharata's mother; asks for two boons,Ikshvaku,Ayodhya & Mithila,Rama's side,Family,Ayodhya,K01,K02,Starter dataset - verify against chosen Valmiki Ramayana edition
+C009,Sumitra,,Mother of Lakshmana and Shatrughna,Ikshvaku,Ayodhya & Mithila,Rama's side,Family,Ayodhya,K01,K07,Starter dataset - verify against chosen Valmiki Ramayana edition
+C010,Janaka,,King of Mithila; Sita's father,Videha,Ayodhya & Mithila,Rama's side,Family,Mithila,K01,K07,Starter dataset - verify against chosen Valmiki Ramayana edition
+C011,Vishvamitra,,Sage who takes Rama and Lakshmana to protect his sacrifice,Sage,Sages & Forest,Rama's side,Guide,Siddhashrama,K01,K01,Starter dataset - verify against chosen Valmiki Ramayana edition
+C012,Vashishtha,,Royal sage of Ayodhya,Sage,Sages & Forest,Rama's side,Guide,Ayodhya,K01,K07,Starter dataset - verify against chosen Valmiki Ramayana edition
+C013,Hanuman,Anjaneya; Maruti; Vayuputra,Vanara devotee and emissary of Rama,Vanara,Kishkindha,Rama's side,Ally,Kishkindha,K04,K07,Starter dataset - verify against chosen Valmiki Ramayana edition
+C014,Sugriva,,Vanara king; ally of Rama,Vanara,Kishkindha,Rama's side,Ally,Kishkindha,K04,K07,Starter dataset - verify against chosen Valmiki Ramayana edition
+C015,Vali,,Former Vanara king; brother of Sugriva,Vanara,Kishkindha,Neutral / Other,Rival,Kishkindha,K04,K04,Starter dataset - verify against chosen Valmiki Ramayana edition
+C016,Jambavan,,Wise bear-chief who encourages Hanuman,Riksha,Kishkindha,Rama's side,Ally,Kishkindha,K04,K06,Starter dataset - verify against chosen Valmiki Ramayana edition
+C017,Angada,,Son of Vali; envoy and warrior,Vanara,Kishkindha,Rama's side,Ally,Kishkindha,K04,K06,Starter dataset - verify against chosen Valmiki Ramayana edition
+C018,Nala,,Vanara associated with construction of the bridge,Vanara,Kishkindha,Rama's side,Ally,Setubandha,K06,K06,Starter dataset - verify against chosen Valmiki Ramayana edition
+C019,Nila,,Vanara commander,Vanara,Kishkindha,Rama's side,Ally,Lanka campaign,K06,K06,Starter dataset - verify against chosen Valmiki Ramayana edition
+C020,Ravana,Dashanana; Lankeshvara,King of Lanka; abducts Sita,Rakshasa,Lanka,Ravana's side,Antagonist,Lanka,K03,K06,Starter dataset - verify against chosen Valmiki Ramayana edition
+C021,Mandodari,,Queen of Lanka; wife of Ravana,Rakshasa,Lanka,Ravana's side,Family,Lanka,K06,K07,Starter dataset - verify against chosen Valmiki Ramayana edition
+C022,Vibhishana,Bibhishana,Ravana's brother; joins Rama,Rakshasa,Lanka,Rama's side,Ally,Lanka,K06,K07,Starter dataset - verify against chosen Valmiki Ramayana edition
+C023,Kumbhakarna,,Ravana's brother and warrior,Rakshasa,Lanka,Ravana's side,Antagonist,Lanka,K06,K06,Starter dataset - verify against chosen Valmiki Ramayana edition
+C024,Meghnad (Indrajit),Meghanada,Ravana's son; formidable warrior,Rakshasa,Lanka,Ravana's side,Antagonist,Lanka,K06,K06,Starter dataset - verify against chosen Valmiki Ramayana edition
+C025,Shurpanakha,,Ravana's sister; encounter in the forest,Rakshasa,Lanka,Ravana's side,Catalyst,Dandaka forest,K03,K03,Starter dataset - verify against chosen Valmiki Ramayana edition
+C026,Maricha,,Rakshasa who takes the form of a golden deer,Rakshasa,Lanka,Ravana's side,Antagonist,Dandaka forest,K03,K03,Starter dataset - verify against chosen Valmiki Ramayana edition
+C027,Jatayu,,Vulture who attempts to stop Sita's abduction,Bird,Sages & Forest,Rama's side,Ally,Dandaka forest,K03,K03,Starter dataset - verify against chosen Valmiki Ramayana edition
+C028,Sampati,,Jatayu's brother; reveals information about Lanka,Bird,Sages & Forest,Rama's side,Ally,Southern coast,K04,K04,Starter dataset - verify against chosen Valmiki Ramayana edition
+C029,Shabari,,Ascetic who welcomes Rama,Sage,Sages & Forest,Rama's side,Ally,Matanga hermitage,K03,K03,Starter dataset - verify against chosen Valmiki Ramayana edition
+C030,Ahalya,,Restored through Rama's arrival,Human,Sages & Forest,Rama's side,Supporting,Gautama hermitage,K01,K01,Starter dataset - verify against chosen Valmiki Ramayana edition
+C031,Tara,,Queen of Kishkindha; wife of Vali,Vanara,Kishkindha,Neutral / Other,Supporting,Kishkindha,K04,K04,Starter dataset - verify against chosen Valmiki Ramayana edition
+C032,Sushena,,Vanara elder/healer in the Lanka campaign,Vanara,Kishkindha,Rama's side,Ally,Lanka campaign,K06,K06,Starter dataset - verify against chosen Valmiki Ramayana edition
+C033,Akampana,,Rakshasa who reports events to Ravana,Rakshasa,Lanka,Ravana's side,Antagonist,Lanka,K03,K03,Starter dataset - verify against chosen Valmiki Ramayana edition
+C034,Khara,,Rakshasa leader in Janasthana,Rakshasa,Lanka,Ravana's side,Antagonist,Janasthana,K03,K03,Starter dataset - verify against chosen Valmiki Ramayana edition
+C035,Dushana,,Rakshasa commander in Janasthana,Rakshasa,Lanka,Ravana's side,Antagonist,Janasthana,K03,K03,Starter dataset - verify against chosen Valmiki Ramayana edition
+C036,Trijata,,Rakshasi who appears sympathetically toward Sita,Rakshasa,Lanka,Neutral / Other,Supporting,Ashoka grove,K05,K05,Starter dataset - verify against chosen Valmiki Ramayana edition
+C037,Guha,,Nishada chief and friend of Rama,Nishada,Sages & Forest,Rama's side,Ally,Shringaverapura,K02,K02,Starter dataset - verify against chosen Valmiki Ramayana edition
+C038,Bharadvaja,,Sage encountered during the exile journey,Sage,Sages & Forest,Rama's side,Guide,Prayaga,K02,K02,Starter dataset - verify against chosen Valmiki Ramayana edition
+C039,Agastya,,Sage who advises Rama in the forest,Sage,Sages & Forest,Rama's side,Guide,Dandaka forest,K03,K03,Starter dataset - verify against chosen Valmiki Ramayana edition
+C040,Rishyasringa,,Sage associated with Dasharatha's sacrifice,Sage,Sages & Forest,Rama's side,Supporting,Anga,K01,K01,Starter dataset - verify against chosen Valmiki Ramayana edition
+C041,Tataka,,Yakshi-turned-rakshasi slain by Rama while escorting Vishvamitra,Rakshasa,Lanka,Ravana's side,Antagonist,Siddhashrama,K01,K01,Editorial addition (curation 2026-11) - requires review

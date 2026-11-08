@@ -1,0 +1,135 @@
+Participation ID,Event ID,Character ID,Participation Role,Source Note
+P001,E001,C006,Primary,Editorial addition (curation 2026-11) - requires review
+P002,E001,C012,Supporting,Editorial addition (curation 2026-11) - requires review
+P003,E001,C040,Supporting,Editorial addition (curation 2026-11) - requires review
+P004,E002,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P005,E002,C003,Primary,Editorial addition (curation 2026-11) - requires review
+P006,E002,C004,Primary,Editorial addition (curation 2026-11) - requires review
+P007,E002,C005,Primary,Editorial addition (curation 2026-11) - requires review
+P008,E002,C006,Supporting,Editorial addition (curation 2026-11) - requires review
+P009,E002,C007,Supporting,Editorial addition (curation 2026-11) - requires review
+P010,E002,C008,Supporting,Editorial addition (curation 2026-11) - requires review
+P011,E002,C009,Supporting,Editorial addition (curation 2026-11) - requires review
+P012,E003,C006,Primary,Editorial addition (curation 2026-11) - requires review
+P013,E003,C011,Primary,Editorial addition (curation 2026-11) - requires review
+P014,E003,C012,Supporting,Editorial addition (curation 2026-11) - requires review
+P015,E004,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P016,E004,C003,Primary,Editorial addition (curation 2026-11) - requires review
+P017,E004,C011,Supporting,Editorial addition (curation 2026-11) - requires review
+P018,E005,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P019,E005,C030,Primary,Editorial addition (curation 2026-11) - requires review
+P020,E005,C011,Supporting,Editorial addition (curation 2026-11) - requires review
+P021,E006,C001,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P022,E006,C002,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P023,E006,C010,Supporting,Editorial addition (curation 2026-11) - requires review
+P024,E006,C011,Supporting,Editorial addition (curation 2026-11) - requires review
+P025,E007,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P026,E007,C002,Primary,Editorial addition (curation 2026-11) - requires review
+P027,E007,C006,Supporting,Editorial addition (curation 2026-11) - requires review
+P028,E008,C001,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P029,E008,C006,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P030,E008,C012,Supporting,Editorial addition (curation 2026-11) - requires review
+P031,E009,C006,Primary,Editorial addition (curation 2026-11) - requires review
+P032,E009,C008,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P033,E010,C001,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P034,E010,C006,Supporting,Editorial addition (curation 2026-11) - requires review
+P035,E011,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P036,E011,C002,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P037,E011,C003,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P038,E012,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P039,E012,C037,Primary,Editorial addition (curation 2026-11) - requires review
+P040,E012,C002,Supporting,Editorial addition (curation 2026-11) - requires review
+P041,E012,C003,Supporting,Editorial addition (curation 2026-11) - requires review
+P042,E013,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P043,E013,C038,Primary,Editorial addition (curation 2026-11) - requires review
+P044,E014,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P045,E014,C002,Primary,Editorial addition (curation 2026-11) - requires review
+P046,E014,C003,Primary,Editorial addition (curation 2026-11) - requires review
+P047,E015,C006,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P048,E015,C007,Supporting,Editorial addition (curation 2026-11) - requires review
+P049,E016,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P050,E016,C004,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P051,E016,C012,Supporting,Editorial addition (curation 2026-11) - requires review
+P052,E017,C004,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P053,E018,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P054,E018,C002,Primary,Editorial addition (curation 2026-11) - requires review
+P055,E018,C003,Primary,Editorial addition (curation 2026-11) - requires review
+P056,E018,C039,Supporting,Editorial addition (curation 2026-11) - requires review
+P057,E019,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P058,E019,C003,Primary,Editorial addition (curation 2026-11) - requires review
+P059,E019,C025,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P060,E020,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P061,E020,C034,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P062,E020,C035,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P063,E020,C033,Supporting,Editorial addition (curation 2026-11) - requires review
+P064,E021,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P065,E021,C026,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P066,E021,C002,Supporting,Editorial addition (curation 2026-11) - requires review
+P067,E022,C002,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P068,E022,C020,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P069,E023,C020,Primary,Editorial addition (curation 2026-11) - requires review
+P070,E023,C027,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P071,E023,C002,Supporting,Editorial addition (curation 2026-11) - requires review
+P072,E024,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P073,E024,C029,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P074,E025,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P075,E025,C013,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P076,E025,C014,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P077,E025,C003,Supporting,Editorial addition (curation 2026-11) - requires review
+P078,E026,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P079,E026,C014,Primary,Editorial addition (curation 2026-11) - requires review
+P080,E026,C013,Supporting,Editorial addition (curation 2026-11) - requires review
+P081,E027,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P082,E027,C014,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P083,E027,C015,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P084,E027,C031,Supporting,Editorial addition (curation 2026-11) - requires review
+P085,E028,C014,Primary,Editorial addition (curation 2026-11) - requires review
+P086,E028,C013,Supporting,Editorial addition (curation 2026-11) - requires review
+P087,E028,C016,Supporting,Editorial addition (curation 2026-11) - requires review
+P088,E028,C017,Supporting,Editorial addition (curation 2026-11) - requires review
+P089,E029,C028,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P090,E029,C013,Supporting,Editorial addition (curation 2026-11) - requires review
+P091,E029,C016,Supporting,Editorial addition (curation 2026-11) - requires review
+P092,E029,C017,Supporting,Editorial addition (curation 2026-11) - requires review
+P093,E030,C013,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P094,E030,C016,Supporting,Editorial addition (curation 2026-11) - requires review
+P095,E031,C002,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P096,E031,C013,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P097,E031,C036,Supporting,Editorial addition (curation 2026-11) - requires review
+P098,E032,C002,Primary,Editorial addition (curation 2026-11) - requires review
+P099,E032,C013,Primary,Editorial addition (curation 2026-11) - requires review
+P100,E033,C013,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P101,E033,C020,Primary,Editorial addition (curation 2026-11) - requires review
+P102,E034,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P103,E034,C013,Primary,Editorial addition (curation 2026-11) - requires review
+P104,E035,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P105,E035,C022,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P106,E035,C020,Supporting,Editorial addition (curation 2026-11) - requires review
+P107,E036,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P108,E036,C018,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P109,E036,C019,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P110,E037,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P111,E037,C020,Primary,Editorial addition (curation 2026-11) - requires review
+P112,E037,C013,Supporting,Editorial addition (curation 2026-11) - requires review
+P113,E037,C014,Supporting,Editorial addition (curation 2026-11) - requires review
+P114,E037,C017,Supporting,Editorial addition (curation 2026-11) - requires review
+P115,E037,C032,Supporting,Editorial addition (curation 2026-11) - requires review
+P116,E038,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P117,E038,C023,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P118,E039,C003,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P119,E039,C024,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P120,E040,C001,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P121,E040,C020,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P122,E040,C021,Supporting,Editorial addition (curation 2026-11) - requires review
+P123,E041,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P124,E041,C002,Primary,Editorial addition (curation 2026-11) - requires review
+P125,E042,C001,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P126,E042,C002,Primary,Editorial addition (curation 2026-11) - requires review
+P127,E042,C003,Supporting,Editorial addition (curation 2026-11) - requires review
+P128,E042,C013,Supporting,Editorial addition (curation 2026-11) - requires review
+P129,E043,C001,Primary,Starter dataset - verify against chosen Valmiki Ramayana edition
+P130,E043,C002,Supporting,Editorial addition (curation 2026-11) - requires review
+P131,E043,C004,Supporting,Editorial addition (curation 2026-11) - requires review
+P132,E043,C012,Supporting,Editorial addition (curation 2026-11) - requires review
+P133,E044,C001,Primary,Editorial addition (curation 2026-11) - requires review
+P134,E044,C002,Primary,Editorial addition (curation 2026-11) - requires review

@@ -1,0 +1,21 @@
+Location ID,Location,Location Type,Region or People,Modern Association,Story Significance,Confidence Label,Map Latitude,Map Longitude,Source Note
+L001,Ayodhya,Kingdom capital,Kosala,Uttar Pradesh (traditional identification),Palace and home of Rama,Traditional association,26.79,82.2,Starter dataset - verify against chosen Valmiki Ramayana edition
+L002,Mithila,Kingdom,Videha,Janakpur region (traditional identification),Janaka's kingdom; Sita's svayamvara,Traditional association,26.73,85.92,Starter dataset - verify against chosen Valmiki Ramayana edition
+L003,Siddhashrama,Hermitage,,Traditional location varies,Vishvamitra's sacrifice,Unverified,25.56,83.98,Starter dataset - verify against chosen Valmiki Ramayana edition
+L004,Ganga crossing,River crossing,,Ganga river corridor,Rama's departure from the royal region,Unverified,,,Starter dataset - verify against chosen Valmiki Ramayana edition
+L005,Shringaverapura,Settlement,Nishada,Near Prayagraj region (traditional identification),Guha receives Rama,Traditional association,25.6,81.63,Starter dataset - verify against chosen Valmiki Ramayana edition
+L006,Chitrakuta,Forest and mountain region,,Bundelkhand region (traditional identification),Early exile residence,Traditional association,25.17,80.86,Starter dataset - verify against chosen Valmiki Ramayana edition
+L007,Dandaka Forest,Forest region,,"Central Indian forest belt (traditional, broad)",Forest exile and encounters,Traditional association,19.8,81.5,Starter dataset - verify against chosen Valmiki Ramayana edition
+L008,Panchavati,Forest hermitage region,,Godavari region (traditional identification),Sita's abduction episode,Traditional association,20.01,73.79,Starter dataset - verify against chosen Valmiki Ramayana edition
+L009,Janasthana,Forest territory,,Dandaka region,Conflict with Khara and Dushana,Unverified,,,Starter dataset - verify against chosen Valmiki Ramayana edition
+L010,Kishkindha,Vanara kingdom,Vanara,Traditional location associated with Hampi region,Alliance with Sugriva,Traditional association,15.33,76.46,Starter dataset - verify against chosen Valmiki Ramayana edition
+L011,Rishyamuka,Mountain,,Kishkindha region,Rama meets Sugriva and Hanuman,Unverified,,,Starter dataset - verify against chosen Valmiki Ramayana edition
+L012,Matanga Hermitage,Hermitage,,Kishkindha region,Rama meets Shabari,Unverified,,,Starter dataset - verify against chosen Valmiki Ramayana edition
+L013,Southern Coast,Coastal region,,Southern seaboard; exact identification varies,Search party reaches the ocean,Unverified,9.45,78.9,Starter dataset - verify against chosen Valmiki Ramayana edition
+L014,Mahendra Mountain,Mountain,,Southern coastal tradition; identification varies,Hanuman's leap toward Lanka,Unverified,8.39,77.55,Starter dataset - verify against chosen Valmiki Ramayana edition
+L015,Lanka,Island kingdom,Rakshasa,Sri Lanka is a traditional association; epic geography is debated,Ravana's capital,Proposed identification,7.3,80.7,Starter dataset - verify against chosen Valmiki Ramayana edition
+L016,Ashoka Grove,Garden,,Lanka,Sita is held captive,Textual,,,Starter dataset - verify against chosen Valmiki Ramayana edition
+L017,Setubandha,Ocean crossing / bridge,,Traditional bridge region between India and Lanka,Rama's army crosses toward Lanka,Traditional association,9.17,79.42,Starter dataset - verify against chosen Valmiki Ramayana edition
+L018,Nandigrama,Settlement,Kosala,Near Ayodhya (traditional identification),Bharata awaits Rama's return,Traditional association,26.62,82.12,Starter dataset - verify against chosen Valmiki Ramayana edition
+L019,Prayaga,Confluence / sacred region,,Prayagraj region (traditional identification),Bharadvaja's hermitage,Traditional association,25.43,81.88,Starter dataset - verify against chosen Valmiki Ramayana edition
+L020,Gautama Hermitage,Hermitage,,Traditional location varies,Ahalya episode,Unverified,,,Starter dataset - verify against chosen Valmiki Ramayana edition

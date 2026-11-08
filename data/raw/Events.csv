@@ -1,0 +1,45 @@
+﻿Event_ID,Event,Kanda_ID,Primary_Location,Summary,Event_Type,Chronology_Note,Sequence
+E001,Putrakameshti sacrifice,K01,Ayodhya,Dasharatha performs a sacrifice seeking sons.,Court and lineage,Narrative sequence; no absolute date asserted,1
+E002,Birth of Rama and his brothers,K01,Ayodhya,"Rama, Bharata, Lakshmana and Shatrughna are born.",Birth,Narrative sequence; no absolute date asserted,2
+E003,Vishvamitra requests Rama's help,K01,Ayodhya,Vishvamitra asks Dasharatha to send Rama to protect the sacrifice.,Call to adventure,Narrative sequence; no absolute date asserted,3
+E004,Protection of the sacrifice,K01,Siddhashrama,Rama and Lakshmana protect the sage's sacrifice.,Trial,Narrative sequence; no absolute date asserted,4
+E005,Ahalya episode,K01,Gautama Hermitage,Rama reaches Gautama's hermitage and Ahalya is restored.,Encounter,Narrative sequence; no absolute date asserted,5
+E006,Sita's svayamvara,K01,Mithila,Rama strings and breaks Shiva's bow; Sita chooses him.,Marriage,Narrative sequence; no absolute date asserted,6
+E007,Return to Ayodhya,K01,Ayodhya,Rama and Sita return after the wedding.,Return,Narrative sequence; no absolute date asserted,7
+E008,Coronation proposal,K02,Ayodhya,Dasharatha proposes Rama's consecration as heir.,Succession,Narrative sequence; no absolute date asserted,8
+E009,Kaikeyi claims two boons,K02,Ayodhya,Kaikeyi asks for Bharata's installation and Rama's exile.,Turning point,Narrative sequence; no absolute date asserted,9
+E010,Rama accepts exile,K02,Ayodhya,Rama accepts the fourteen-year exile to uphold his father's promise.,Exile,Narrative sequence; no absolute date asserted,10
+E011,Sita and Lakshmana accompany Rama,K02,Ayodhya,Sita and Lakshmana choose to accompany Rama.,Exile,Narrative sequence; no absolute date asserted,11
+E012,Guha receives Rama,K02,Shringaverapura,Guha welcomes Rama and helps him cross the Ganga.,Journey,Narrative sequence; no absolute date asserted,12
+E013,Bharadvaja advises the exiles,K02,Prayaga,Rama visits Bharadvaja and receives guidance.,Journey,Narrative sequence; no absolute date asserted,13
+E014,Residence at Chitrakuta,K02,Chitrakuta,"Rama, Sita and Lakshmana establish a forest dwelling.",Exile,Narrative sequence; no absolute date asserted,14
+E015,Dasharatha dies,K02,Ayodhya,Dasharatha dies grieving Rama's departure.,Consequence,Narrative sequence; no absolute date asserted,15
+E016,Bharata rejects the throne,K02,Chitrakuta,Bharata asks Rama to return; Rama refuses to break the exile vow.,Dharma,Narrative sequence; no absolute date asserted,16
+E017,Rama's sandals placed on throne,K02,Nandigrama,"Bharata governs as regent, placing Rama's sandals on the throne.",Regency,Narrative sequence; no absolute date asserted,17
+E018,Move deeper into the forest,K03,Dandaka Forest,"Rama, Sita and Lakshmana travel through forest hermitages.",Journey,Narrative sequence; no absolute date asserted,18
+E019,Shurpanakha encounters Rama,K03,Panchavati,Shurpanakha approaches Rama and conflict follows.,Conflict trigger,Narrative sequence; no absolute date asserted,19
+E020,Khara and Dushana defeated,K03,Janasthana,Rama defeats the rakshasa forces led by Khara and Dushana.,Battle,Narrative sequence; no absolute date asserted,20
+E021,Maricha appears as golden deer,K03,Panchavati,Maricha takes the form of a golden deer and draws Rama away.,Deception,Narrative sequence; no absolute date asserted,21
+E022,Sita abducted by Ravana,K03,Panchavati,Ravana abducts Sita while Rama and Lakshmana are away.,Abduction,Narrative sequence; no absolute date asserted,22
+E023,Jatayu fights Ravana,K03,Dandaka Forest,Jatayu attempts to rescue Sita and is mortally wounded.,Sacrifice,Narrative sequence; no absolute date asserted,23
+E024,Rama meets Shabari,K03,Matanga Hermitage,Shabari welcomes Rama and directs him onward.,Guidance,Narrative sequence; no absolute date asserted,24
+E025,Rama meets Hanuman and Sugriva,K04,Rishyamuka,Hanuman brings Rama and Lakshmana to Sugriva.,Alliance,Narrative sequence; no absolute date asserted,25
+E026,Alliance with Sugriva,K04,Kishkindha,Rama and Sugriva pledge mutual assistance.,Alliance,Narrative sequence; no absolute date asserted,26
+E027,Vali defeated,K04,Kishkindha,Rama kills Vali and Sugriva regains the kingdom.,Succession,Narrative sequence; ethical debate often discussed,27
+E028,Search parties dispatched,K04,Kishkindha,Sugriva sends search parties in different directions.,Search,Narrative sequence; no absolute date asserted,28
+E029,Sampati reveals Lanka's direction,K04,Southern Coast,Sampati tells the search party that Sita is in Lanka.,Discovery,Narrative sequence; no absolute date asserted,29
+E030,Hanuman leaps across the ocean,K05,Mahendra Mountain,Hanuman makes the leap toward Lanka.,Mission,Narrative sequence; no absolute date asserted,30
+E031,Hanuman finds Sita,K05,Ashoka Grove,Hanuman locates Sita and gives Rama's signet ring.,Recognition,Narrative sequence; no absolute date asserted,31
+E032,Hanuman delivers Rama's message,K05,Ashoka Grove,Hanuman reassures Sita and receives her token.,Communication,Narrative sequence; no absolute date asserted,32
+E033,Hanuman's Lanka encounter,K05,Lanka,"Hanuman is captured, speaks with Ravana and escapes after setting parts of Lanka ablaze.",Confrontation,Narrative sequence; no absolute date asserted,33
+E034,Hanuman returns with news,K05,Southern Coast,Hanuman returns to Rama with confirmation of Sita's location.,Return,Narrative sequence; no absolute date asserted,34
+E035,Vibhishana seeks refuge,K06,Lanka campaign,Vibhishana leaves Ravana and joins Rama.,Defection,Narrative sequence; no absolute date asserted,35
+E036,Ocean crossing and bridge,K06,Setubandha,Rama's forces cross toward Lanka by the bridge associated with Nala and Nila.,Mobilisation,Narrative sequence; no absolute date asserted,36
+E037,War begins in Lanka,K06,Lanka,The forces of Rama and Ravana engage in battle.,Battle,Narrative sequence; no absolute date asserted,37
+E038,Kumbhakarna falls,K06,Lanka,Kumbhakarna enters the battle and is defeated.,Battle,Narrative sequence; no absolute date asserted,38
+E039,Indrajit is defeated,K06,Lanka,Indrajit is defeated by Lakshmana.,Battle,Narrative sequence; no absolute date asserted,39
+E040,Ravana is defeated,K06,Lanka,"Rama defeats Ravana, ending the central conflict.",Climax,Narrative sequence; no absolute date asserted,40
+E041,Sita's trial by fire episode,K06,Lanka,The fire ordeal episode occurs after Ravana's defeat; interpretations vary across traditions.,Aftermath,Narrative sequence; interpretive sensitivity noted,41
+E042,Return to Ayodhya,K06,Ayodhya,"Rama, Sita and companions return to Ayodhya.",Return,Narrative sequence; no absolute date asserted,42
+E043,Rama's coronation,K06,Ayodhya,Rama is consecrated king of Ayodhya.,Coronation,Narrative sequence; no absolute date asserted,43
+E044,Later reign and Uttara Kanda episodes,K07,Ayodhya,The concluding Kanda narrates later events in Rama's reign and the story of Lava and Kusha.,Later reign,Narrative sequence; textual history and reception vary,44

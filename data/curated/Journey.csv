@@ -1,0 +1,13 @@
+Journey Stop ID,Journey Order,Location ID,Story Milestone,Kanda ID,Source Note
+J01,1,L001,Departure and royal home,K02,Starter dataset - verify against chosen Valmiki Ramayana edition
+J02,2,L005,Guha receives Rama,K02,Starter dataset - verify against chosen Valmiki Ramayana edition
+J03,3,L019,Bharadvaja's hermitage,K02,Starter dataset - verify against chosen Valmiki Ramayana edition
+J04,4,L006,Early forest residence,K02,Starter dataset - verify against chosen Valmiki Ramayana edition
+J05,5,L007,Wider forest exile,K03,Starter dataset - verify against chosen Valmiki Ramayana edition
+J06,6,L008,Sita's abduction episode,K03,Starter dataset - verify against chosen Valmiki Ramayana edition
+J07,7,L010,Alliance with Sugriva,K04,Starter dataset - verify against chosen Valmiki Ramayana edition
+J08,8,L013,Search party reaches the ocean,K04,Starter dataset - verify against chosen Valmiki Ramayana edition
+J09,9,L014,Hanuman's leap,K05,Starter dataset - verify against chosen Valmiki Ramayana edition
+J10,10,L015,Sita's captivity and Lanka war,K05,Starter dataset - verify against chosen Valmiki Ramayana edition
+J11,11,L017,Army crossing toward Lanka,K06,Starter dataset - verify against chosen Valmiki Ramayana edition
+J12,12,L001,Return and coronation,K06,Starter dataset - verify against chosen Valmiki Ramayana edition

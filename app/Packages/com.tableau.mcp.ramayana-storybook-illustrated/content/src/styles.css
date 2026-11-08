@@ -1,0 +1,199 @@
+/* Ramayana Storybook - one screen per page: picture left, story right. System fonts only. */
+:root {
+  --paper: #f6eedd;
+  --paper-2: #efe3c8;
+  --ink: #2a1c12;
+  --soft: #7a6550;
+  --maroon: #6e1f17;
+  --gold: #c8973f;
+  --gold-soft: #e7c886;
+  --rule: #e2d3b2;
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --deva: "Noto Serif Devanagari", "Kohinoor Devanagari", "Devanagari MT", "Nirmala UI", "Mangal", serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--paper); color: var(--ink); overflow: hidden; }
+body { font-family: var(--serif); -webkit-font-smoothing: antialiased; }
+#app { height: 100%; }
+button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+button:disabled { opacity: .3; cursor: default; }
+:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 2px; }
+[lang="sa"] { font-family: var(--deva); }
+.loading { text-align: center; color: var(--gold); font-size: 2.4rem; margin-top: 40vh; opacity: .6; }
+.error { max-width: 640px; margin: 18vh auto; padding: 0 16px; word-break: break-word; }
+
+/* ---------------- Two-page spread ---------------- */
+.book { display: grid; grid-template-columns: minmax(0, 46fr) minmax(0, 54fr); height: 100vh; }
+.left { position: relative; overflow: hidden; background: var(--tint, var(--maroon)); }
+.right { display: flex; flex-direction: column; min-height: 0; border-left: 1px solid var(--rule); }
+.scroll { flex: 1; min-height: 0; overflow: auto; display: flex; }   /* only scrolls on very small screens */
+.text { margin: auto; width: 100%; max-width: 600px; padding: clamp(18px, 4vh, 44px) clamp(20px, 4vw, 52px); }
+
+/* ---------------- Left: art ---------------- */
+.art { margin: 0; height: 100%; position: relative; }
+.art img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.art figcaption { position: absolute; left: 0; right: 0; bottom: 0; padding: 26px 22px 14px; font-style: italic; font-size: .85rem; color: #f6e7c8;
+  background: linear-gradient(transparent, rgba(30, 12, 6, .7)); }
+.art-plate { display: flex; align-items: center; justify-content: center; padding: 6%;
+  background: radial-gradient(ellipse at 50% 35%, rgba(255, 220, 160, .22), transparent 60%), var(--tint); }
+.plate-frame { width: 100%; height: 100%; border: 1px solid rgba(231, 200, 134, .45); outline: 1px solid rgba(231, 200, 134, .2); outline-offset: 8px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; text-align: center; padding: 8%; }
+.plate-orn { color: var(--gold-soft); opacity: .7; letter-spacing: .2em; font-family: var(--deva); font-size: .95rem; }
+.plate-deva { font-family: var(--deva); color: var(--gold-soft); font-size: clamp(2.4rem, 5.4vw, 4.6rem); line-height: 1.25; text-shadow: 0 2px 18px rgba(0, 0, 0, .25); }
+.plate-cap { color: #f1dfbd; font-style: italic; font-size: 1.05rem; max-width: 80%; }
+
+.art-map { background: var(--paper-2); display: flex; flex-direction: column; }
+.map { flex: 1; min-height: 0; width: 100%; padding: 18px 10px 0; }
+.art-map figcaption { position: static; background: none; color: var(--soft); text-align: center; padding: 8px 16px 14px; font-size: .78rem; }
+.sea { fill: #dfe0cf; }
+.land { fill: #f1e4c4; stroke: #c9ad74; stroke-width: 1; }
+.frame { fill: none; stroke: var(--gold); stroke-width: 1.5; }
+.sea-label { font-family: var(--serif); font-style: italic; font-size: 13px; fill: #8e9a8a; letter-spacing: .12em; }
+.art-map .map { padding: 24px 22px 0; }
+.leg { stroke: var(--maroon); stroke-width: 2.2; stroke-linecap: round; transition: opacity .3s; }
+.leg-return { stroke: var(--gold); stroke-dasharray: 5 5; }
+.leg-ahead { opacity: .12; }
+.stop circle { fill: var(--paper); stroke: var(--maroon); stroke-width: 2; transition: r .2s; }
+.stop.on circle { fill: var(--maroon); stroke: var(--gold-soft); stroke-width: 3; }
+.stop.ahead { opacity: .25; }
+.stop text { font-family: var(--serif); font-size: 12px; fill: var(--ink); paint-order: stroke; stroke: var(--paper-2); stroke-width: 4px; font-variant: small-caps; letter-spacing: .04em; }
+.stop.on text { font-weight: 700; fill: var(--maroon); font-size: 14px; }
+
+/* ---------------- Right: typography ---------------- */
+.count { font-family: var(--sans); font-size: .7rem; letter-spacing: .2em; text-transform: uppercase; color: var(--soft); margin: 0 0 10px; }
+.count [lang="sa"] { letter-spacing: 0; text-transform: none; font-size: .85rem; color: var(--maroon); }
+.deva-title { font-weight: 400; color: var(--maroon); font-size: clamp(2rem, 4.2vw, 3.3rem); line-height: 1.25; margin: 0; }
+.en-title { font-weight: 400; font-variant: small-caps; letter-spacing: .18em; font-size: 1.1rem; margin: 2px 0 0; }
+.gloss { font-style: italic; color: var(--soft); margin: 0; font-size: .92rem; }
+.moment-title { font-weight: 400; color: var(--maroon); font-size: clamp(1.7rem, 3.2vw, 2.5rem); line-height: 1.2; margin: 0 0 6px; }
+.body { font-size: clamp(1rem, 1.35vw, 1.14rem); line-height: 1.7; margin: 14px 0 0; }
+.dropcap::first-letter { float: left; font-size: 3.1em; line-height: .85; padding: 5px 9px 0 0; color: var(--maroon); }
+.meta { margin: 14px 0 0; font-style: italic; color: var(--soft); font-size: .92rem; }
+.place { font-style: normal; font-variant: small-caps; letter-spacing: .06em; color: var(--ink); }
+.note { font-size: .88rem; font-style: italic; color: var(--soft); margin: 12px 0 0; }
+.label { font-family: var(--sans); font-style: normal; font-size: .66rem; letter-spacing: .18em; text-transform: uppercase; margin-right: 4px; }
+
+.episodes { list-style: none; margin: 16px 0 0; padding: 12px 0 0; border-top: 1px solid var(--rule); columns: 2 220px; column-gap: 26px; }
+.episodes li { break-inside: avoid; font-size: .9rem; line-height: 1.35; padding: 3px 0 3px 14px; position: relative; color: var(--soft); }
+.episodes li::before { content: "\00B7"; position: absolute; left: 3px; color: var(--gold); }
+.episodes li.key::before { content: "\2726"; left: 0; font-size: .7rem; top: 5px; }
+.episodes li.key button { color: var(--maroon); text-align: left; border-bottom: 1px solid transparent; }
+.episodes li.key button:hover { border-bottom-color: var(--gold); }
+
+/* Cover */
+.text-cover { text-align: center; }
+.kicker { color: var(--gold); margin: 0; letter-spacing: .1em; }
+.cover-title { font-weight: 400; color: var(--maroon); font-size: clamp(3.2rem, 8vw, 6rem); line-height: 1.2; margin: 0; }
+.cover-sub { font-variant: small-caps; letter-spacing: .3em; margin: 0; }
+.lede { font-style: italic; color: var(--soft); margin: 12px auto 0; max-width: 420px; }
+.toc { list-style: none; padding: 0; margin: 20px auto 0; max-width: 380px; text-align: left; border-top: 1px solid var(--rule); }
+.toc li { border-bottom: 1px solid var(--rule); }
+.toc button { width: 100%; display: grid; grid-template-columns: 26px 1fr auto; gap: 10px; align-items: baseline; padding: 6px 2px; }
+.toc button:hover .toc-d { color: var(--maroon); }
+.toc-n { color: var(--gold); }
+.toc-d { font-size: 1.05rem; }
+.toc-e { font-style: italic; color: var(--soft); font-size: .85rem; }
+.begin { margin-top: 20px; border: 1px solid var(--maroon); color: var(--maroon); padding: 9px 28px; border-radius: 999px; font-variant: small-caps; letter-spacing: .14em; }
+.begin:hover { background: var(--maroon); color: var(--paper); }
+
+/* Path page */
+.stops { list-style: none; padding: 0; margin: 14px 0 0; columns: 2 200px; column-gap: 20px; border-top: 1px solid var(--rule); padding-top: 10px; }
+.stops li { break-inside: avoid; }
+.stops button { width: 100%; display: grid; grid-template-columns: 24px 1fr auto; gap: 8px; align-items: baseline; padding: 3px 4px; text-align: left; border-radius: 4px; font-size: .92rem; }
+.stops button:hover { background: var(--paper-2); }
+.stops button.on { background: var(--maroon); color: var(--paper); }
+.stop-n { color: var(--gold); font-family: var(--sans); font-size: .75rem; }
+.stops button.on .stop-n, .stops button.on .stop-k { color: var(--gold-soft); }
+.stop-k { color: var(--soft); font-size: .8rem; }
+.stop-detail { min-height: 3.2em; font-size: .92rem; margin: 12px 0 0; color: var(--ink); }
+.stop-detail em { color: var(--soft); }
+.trace { margin-top: 8px; border: 1px solid var(--maroon); color: var(--maroon); padding: 7px 18px; border-radius: 999px; font-size: .9rem; }
+.trace:hover { background: var(--maroon); color: var(--paper); }
+
+/* ---------------- Navigation ---------------- */
+.nav { flex: none; display: flex; align-items: center; gap: 10px; padding: 10px 18px; border-top: 1px solid var(--rule); background: var(--paper); flex-wrap: wrap; justify-content: center; }
+.arrow { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--gold); color: var(--maroon); font-size: 1.05rem; flex: none; }
+.arrow:not(:disabled):hover { background: var(--maroon); color: var(--paper); border-color: var(--maroon); }
+.segs { list-style: none; display: flex; gap: 2px; margin: 0; padding: 0; flex: 1; justify-content: center; flex-wrap: wrap; }
+.segs button { padding: 3px 7px; border-radius: 4px; font-size: .85rem; color: var(--soft); border-bottom: 2px solid transparent; }
+.segs button[lang="sa"] { font-size: .92rem; }
+.segs button.done { color: var(--ink); }
+.segs button.on { color: var(--maroon); border-bottom-color: var(--maroon); font-weight: 700; }
+.segs button:hover { color: var(--maroon); }
+.subdots { display: flex; gap: 5px; flex-basis: 100%; justify-content: center; order: 3; }
+.subdots i { width: 6px; height: 6px; border-radius: 50%; background: var(--rule); }
+.subdots i.on { background: var(--maroon); width: 18px; border-radius: 3px; }
+
+/* ---------------- Small screens: stack, art becomes a banner ---------------- */
+@media (max-width: 760px) {
+  html, body { overflow: auto; }
+  .book { grid-template-columns: 1fr; grid-template-rows: 34vh auto; height: auto; min-height: 100vh; }
+  .right { border-left: 0; }
+  .scroll { overflow: visible; }
+  .page-path .book, .book.page-path { grid-template-rows: 46vh auto; }
+  .episodes, .stops { columns: 1; }
+}
+.loading-status { text-align: center; color: var(--soft); font-style: italic; font-size: .9rem; }
+.data-note { margin: 0; padding: 4px 16px 8px; font-size: .7rem; color: var(--soft); text-align: center; font-family: var(--sans); }
+
+/* Contents list: keep Devanagari names left-aligned (buttons centre text by default). */
+.toc button { text-align: left; }
+.toc-d { justify-self: start; }
+.toc-e { justify-self: end; }
+
+/* Short frames (Tableau view ~540px): tighter chrome so the zoom-to-fit has less to do. */
+@media (max-height: 700px) and (min-width: 761px) {
+  .nav { padding: 6px 14px; gap: 6px; }
+  .arrow { width: 30px; height: 30px; font-size: .95rem; }
+  .segs button { padding: 2px 6px; font-size: .8rem; }
+  .text { padding: 14px clamp(18px, 3vw, 40px); }
+  .toc button { padding: 3px 2px; }
+  .lede { margin-top: 6px; }
+  .begin { margin-top: 12px; padding: 7px 24px; }
+  .plate-frame { gap: 10px; }
+}
+
+/* ---------------- Mini map inset (Kanda + moment pages) ---------------- */
+.left { position: relative; }
+.minimap {
+  position: absolute; left: 22px; bottom: 22px; width: clamp(120px, 15vw, 190px); cursor: pointer;
+  background: rgba(246, 238, 221, .93); border: 1px solid var(--gold); padding: 6px 6px 4px; border-radius: 3px;
+  box-shadow: 0 6px 18px rgba(20, 8, 4, .35); transition: transform .2s;
+}
+.minimap:hover { transform: translateY(-2px); }
+.minimap svg { display: block; width: 100%; height: auto; }
+.mm-land { fill: #ead9b4; stroke: #c9ad74; stroke-width: 2; }
+.mm-route { fill: none; stroke: var(--maroon); stroke-width: 3; stroke-dasharray: 6 6; opacity: .35; }
+.mm-place circle { fill: var(--maroon); stroke: var(--gold-soft); stroke-width: 4; }
+.mm-cap { margin: 3px 0 0; font-size: .72rem; text-align: center; color: var(--ink); font-variant: small-caps; letter-spacing: .04em; line-height: 1.25; }
+
+/* ---------------- Who's who (two pages, two worlds each: readable at full size) ---------------- */
+.cast { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 34px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--rule); }
+.cast-group h3 { margin: 0 0 8px; font-weight: 400; color: var(--maroon); font-size: 1.35rem; line-height: 1.3; }
+.cast-en { display: block; font-family: var(--sans); font-size: .66rem; letter-spacing: .16em; text-transform: uppercase; color: var(--soft); }
+.cast-group ul { list-style: none; margin: 0; padding: 0; }
+.cast-group li { font-size: .98rem; line-height: 1.35; padding: 5px 0; color: var(--soft); }
+.cast-group li strong { display: block; color: var(--ink); font-weight: 600; font-size: 1.1rem; }
+@media (max-width: 760px) { .cast { grid-template-columns: 1fr; } }
+
+/* ---------------- Closing page + resume ---------------- */
+.text-end { text-align: center; }
+.text-end .body { text-align: left; }
+.about { margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--rule); text-align: left; font-size: .86rem; color: var(--soft); }
+.about p { margin: 4px 0; }
+.end-actions { margin-top: 16px; display: flex; gap: 18px; justify-content: center; align-items: center; }
+.end-actions .begin { margin-top: 0; }
+.resume { margin: 10px 0 0; font-size: .9rem; }
+.linkish { color: var(--maroon); border-bottom: 1px solid var(--gold); }
+
+/* v5 illustrations: keep faces (upper-middle) in frame whatever the panel shape */
+.art img { object-position: 50% 28%; }
+.art figcaption { font-size: .95rem; padding: 40px 24px 16px; }
+
+/* v5: compact map in the top-right corner of the text page (keeps the illustration clean) */
+.right { position: relative; }
+.minimap { left: auto; bottom: auto; top: 10px; right: 12px; width: 78px; padding: 3px; z-index: 2;
+  background: rgba(246, 238, 221, .95); box-shadow: 0 2px 6px rgba(20, 8, 4, .18); }
+.mm-cap { display: none; }
+@media (max-width: 1150px) { .minimap { display: none; } }
