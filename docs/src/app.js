@@ -506,10 +506,25 @@
 
   // Fit the page to the frame (Tableau's view can be ~540px tall): shrink the text block in small
   // steps until nothing scrolls. Floor at 62% so text stays readable; phones stack and may scroll.
+  // Standalone web edition: always lay the book out at the Tableau frame size (1366 x 640)
+  // and scale that "stage" to fit the window, so it looks exactly like the data app.
+  // Only real phone screens (narrower than 520px) use the stacked reading layout.
+  var STAGE_W = 1366, STAGE_H = 640, PHONE = 520;
+  function stage() {
+    var el = document.getElementById('app');
+    if (!el) { return; }
+    var phone = window.innerWidth < PHONE;
+    document.documentElement.classList.toggle('phone', phone);
+    if (phone) { el.style.cssText = ''; return; }
+    var s = Math.min(window.innerWidth / STAGE_W, window.innerHeight / STAGE_H);
+    el.style.cssText = 'position:absolute;left:50%;top:50%;width:' + STAGE_W + 'px;height:' + STAGE_H +
+      'px;transform:translate(-50%,-50%) scale(' + s + ');transform-origin:center center;';
+  }
   var MIN_ZOOM = 0.62;
   function fit() {
+    stage();
     var box = document.querySelector('.scroll'), text = box && box.firstChild;
-    if (!text || window.innerWidth <= 760) { if (text) { text.style.zoom = ''; } return; }
+    if (!text || window.innerWidth < PHONE) { if (text) { text.style.zoom = ''; } return; }
     var z = 1;
     text.style.zoom = '';
     while (box.scrollHeight > box.clientHeight + 1 && z > MIN_ZOOM) {

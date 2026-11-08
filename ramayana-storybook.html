@@ -28,15 +28,15 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 button:disabled { opacity: .3; cursor: default; }
 :focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 2px; }
 [lang="sa"] { font-family: var(--deva); }
-.loading { text-align: center; color: var(--gold); font-size: 2.4rem; margin-top: 40vh; opacity: .6; }
-.error { max-width: 640px; margin: 18vh auto; padding: 0 16px; word-break: break-word; }
+.loading { text-align: center; color: var(--gold); font-size: 2.4rem; margin-top: 256px; opacity: .6; }
+.error { max-width: 640px; margin: 115px auto; padding: 0 16px; word-break: break-word; }
 
 /* ---------------- Two-page spread ---------------- */
-.book { display: grid; grid-template-columns: minmax(0, 46fr) minmax(0, 54fr); height: 100vh; }
+.book { display: grid; grid-template-columns: minmax(0, 46fr) minmax(0, 54fr); height: 640px; }
 .left { position: relative; overflow: hidden; background: var(--tint, var(--maroon)); }
 .right { display: flex; flex-direction: column; min-height: 0; border-left: 1px solid var(--rule); }
 .scroll { flex: 1; min-height: 0; overflow: auto; display: flex; }   /* only scrolls on very small screens */
-.text { margin: auto; width: 100%; max-width: 600px; padding: clamp(18px, 4vh, 44px) clamp(20px, 4vw, 52px); }
+.text { margin: auto; width: 100%; max-width: 600px; padding: clamp(18px, 26px, 44px) clamp(20px, 55px, 52px); }
 
 /* ---------------- Left: art ---------------- */
 .art { margin: 0; height: 100%; position: relative; }
@@ -48,7 +48,7 @@ button:disabled { opacity: .3; cursor: default; }
 .plate-frame { width: 100%; height: 100%; border: 1px solid rgba(231, 200, 134, .45); outline: 1px solid rgba(231, 200, 134, .2); outline-offset: 8px;
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; text-align: center; padding: 8%; }
 .plate-orn { color: var(--gold-soft); opacity: .7; letter-spacing: .2em; font-family: var(--deva); font-size: .95rem; }
-.plate-deva { font-family: var(--deva); color: var(--gold-soft); font-size: clamp(2.4rem, 5.4vw, 4.6rem); line-height: 1.25; text-shadow: 0 2px 18px rgba(0, 0, 0, .25); }
+.plate-deva { font-family: var(--deva); color: var(--gold-soft); font-size: clamp(2.4rem, 74px, 4.6rem); line-height: 1.25; text-shadow: 0 2px 18px rgba(0, 0, 0, .25); }
 .plate-cap { color: #f1dfbd; font-style: italic; font-size: 1.05rem; max-width: 80%; }
 
 .art-map { background: var(--paper-2); display: flex; flex-direction: column; }
@@ -71,11 +71,11 @@ button:disabled { opacity: .3; cursor: default; }
 /* ---------------- Right: typography ---------------- */
 .count { font-family: var(--sans); font-size: .7rem; letter-spacing: .2em; text-transform: uppercase; color: var(--soft); margin: 0 0 10px; }
 .count [lang="sa"] { letter-spacing: 0; text-transform: none; font-size: .85rem; color: var(--maroon); }
-.deva-title { font-weight: 400; color: var(--maroon); font-size: clamp(2rem, 4.2vw, 3.3rem); line-height: 1.25; margin: 0; }
+.deva-title { font-weight: 400; color: var(--maroon); font-size: clamp(2rem, 57px, 3.3rem); line-height: 1.25; margin: 0; }
 .en-title { font-weight: 400; font-variant: small-caps; letter-spacing: .18em; font-size: 1.1rem; margin: 2px 0 0; }
 .gloss { font-style: italic; color: var(--soft); margin: 0; font-size: .92rem; }
-.moment-title { font-weight: 400; color: var(--maroon); font-size: clamp(1.7rem, 3.2vw, 2.5rem); line-height: 1.2; margin: 0 0 6px; }
-.body { font-size: clamp(1rem, 1.35vw, 1.14rem); line-height: 1.7; margin: 14px 0 0; }
+.moment-title { font-weight: 400; color: var(--maroon); font-size: clamp(1.7rem, 44px, 2.5rem); line-height: 1.2; margin: 0 0 6px; }
+.body { font-size: clamp(1rem, 18px, 1.14rem); line-height: 1.7; margin: 14px 0 0; }
 .dropcap::first-letter { float: left; font-size: 3.1em; line-height: .85; padding: 5px 9px 0 0; color: var(--maroon); }
 .meta { margin: 14px 0 0; font-style: italic; color: var(--soft); font-size: .92rem; }
 .place { font-style: normal; font-variant: small-caps; letter-spacing: .06em; color: var(--ink); }
@@ -92,7 +92,7 @@ button:disabled { opacity: .3; cursor: default; }
 /* Cover */
 .text-cover { text-align: center; }
 .kicker { color: var(--gold); margin: 0; letter-spacing: .1em; }
-.cover-title { font-weight: 400; color: var(--maroon); font-size: clamp(3.2rem, 8vw, 6rem); line-height: 1.2; margin: 0; }
+.cover-title { font-weight: 400; color: var(--maroon); font-size: clamp(3.2rem, 109px, 6rem); line-height: 1.2; margin: 0; }
 .cover-sub { font-variant: small-caps; letter-spacing: .3em; margin: 0; }
 .lede { font-style: italic; color: var(--soft); margin: 12px auto 0; max-width: 420px; }
 .toc { list-style: none; padding: 0; margin: 20px auto 0; max-width: 380px; text-align: left; border-top: 1px solid var(--rule); }
@@ -134,7 +134,7 @@ button:disabled { opacity: .3; cursor: default; }
 .subdots i.on { background: var(--maroon); width: 18px; border-radius: 3px; }
 
 /* ---------------- Small screens: stack, art becomes a banner ---------------- */
-@media (max-width: 760px) {
+@media (max-width: 519px) {
   html, body { overflow: auto; }
   .book { grid-template-columns: 1fr; grid-template-rows: 34vh auto; height: auto; min-height: 100vh; }
   .right { border-left: 0; }
@@ -151,11 +151,11 @@ button:disabled { opacity: .3; cursor: default; }
 .toc-e { justify-self: end; }
 
 /* Short frames (Tableau view ~540px): tighter chrome so the zoom-to-fit has less to do. */
-@media (max-height: 700px) and (min-width: 761px) {
+@media (min-width: 520px) {
   .nav { padding: 6px 14px; gap: 6px; }
   .arrow { width: 30px; height: 30px; font-size: .95rem; }
   .segs button { padding: 2px 6px; font-size: .8rem; }
-  .text { padding: 14px clamp(18px, 3vw, 40px); }
+  .text { padding: 14px clamp(18px, 41px, 40px); }
   .toc button { padding: 3px 2px; }
   .lede { margin-top: 6px; }
   .begin { margin-top: 12px; padding: 7px 24px; }
@@ -165,7 +165,7 @@ button:disabled { opacity: .3; cursor: default; }
 /* ---------------- Mini map inset (Kanda + moment pages) ---------------- */
 .left { position: relative; }
 .minimap {
-  position: absolute; left: 22px; bottom: 22px; width: clamp(120px, 15vw, 190px); cursor: pointer;
+  position: absolute; left: 22px; bottom: 22px; width: clamp(120px, 205px, 190px); cursor: pointer;
   background: rgba(246, 238, 221, .93); border: 1px solid var(--gold); padding: 6px 6px 4px; border-radius: 3px;
   box-shadow: 0 6px 18px rgba(20, 8, 4, .35); transition: transform .2s;
 }
@@ -183,7 +183,7 @@ button:disabled { opacity: .3; cursor: default; }
 .cast-group ul { list-style: none; margin: 0; padding: 0; }
 .cast-group li { font-size: .98rem; line-height: 1.35; padding: 5px 0; color: var(--soft); }
 .cast-group li strong { display: block; color: var(--ink); font-weight: 600; font-size: 1.1rem; }
-@media (max-width: 760px) { .cast { grid-template-columns: 1fr; } }
+@media (max-width: 519px) { .cast { grid-template-columns: 1fr; } }
 
 /* ---------------- Closing page + resume ---------------- */
 .text-end { text-align: center; }
@@ -204,7 +204,7 @@ button:disabled { opacity: .3; cursor: default; }
 .minimap { left: auto; bottom: auto; top: 10px; right: 12px; width: 78px; padding: 3px; z-index: 2;
   background: rgba(246, 238, 221, .95); box-shadow: 0 2px 6px rgba(20, 8, 4, .18); }
 .mm-cap { display: none; }
-@media (max-width: 1150px) { .minimap { display: none; } }
+html.phone .minimap { display: none; }
 
 /* ---------------- Theme toggle ---------------- */
 .theme-btn { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--rule); color: var(--soft); font-size: 1.05rem; flex: none; margin-left: 4px; }
@@ -239,6 +239,11 @@ button:disabled { opacity: .3; cursor: default; }
 [data-theme="dark"] .mm-place circle { stroke: var(--paper); }
 [data-theme="dark"] .subdots i { background: var(--rule); }
 html, body, .right, .nav { transition: background-color .25s, color .25s; }
+
+/* Standalone stage: book fills the 1366x640 stage (not the viewport); letterbox around it */
+html:not(.phone) .book { height: 100%; }
+html:not(.phone), html:not(.phone) body { background: #120d0a; }
+html:not(.phone) #app { background: var(--paper); box-shadow: 0 10px 40px rgba(0,0,0,.35); }
 
 </style>
 </head>
@@ -766,10 +771,25 @@ window.RAMAYANA_IMAGES = {"cover": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAA
 
   // Fit the page to the frame (Tableau's view can be ~540px tall): shrink the text block in small
   // steps until nothing scrolls. Floor at 62% so text stays readable; phones stack and may scroll.
+  // Standalone web edition: always lay the book out at the Tableau frame size (1366 x 640)
+  // and scale that "stage" to fit the window, so it looks exactly like the data app.
+  // Only real phone screens (narrower than 520px) use the stacked reading layout.
+  var STAGE_W = 1366, STAGE_H = 640, PHONE = 520;
+  function stage() {
+    var el = document.getElementById('app');
+    if (!el) { return; }
+    var phone = window.innerWidth < PHONE;
+    document.documentElement.classList.toggle('phone', phone);
+    if (phone) { el.style.cssText = ''; return; }
+    var s = Math.min(window.innerWidth / STAGE_W, window.innerHeight / STAGE_H);
+    el.style.cssText = 'position:absolute;left:50%;top:50%;width:' + STAGE_W + 'px;height:' + STAGE_H +
+      'px;transform:translate(-50%,-50%) scale(' + s + ');transform-origin:center center;';
+  }
   var MIN_ZOOM = 0.62;
   function fit() {
+    stage();
     var box = document.querySelector('.scroll'), text = box && box.firstChild;
-    if (!text || window.innerWidth <= 760) { if (text) { text.style.zoom = ''; } return; }
+    if (!text || window.innerWidth < PHONE) { if (text) { text.style.zoom = ''; } return; }
     var z = 1;
     text.style.zoom = '';
     while (box.scrollHeight > box.clientHeight + 1 && z > MIN_ZOOM) {
